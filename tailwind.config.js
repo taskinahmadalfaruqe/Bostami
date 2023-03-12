@@ -12,7 +12,7 @@ module.exports = {
         DEFAULT: '1rem',
         sm: '2rem',
         lg: '50px',
-        xl: '5rem',
+        xl: '3rem',
         '2xl': '6rem',
       },
     },

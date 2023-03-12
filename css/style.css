@@ -546,8 +546,8 @@ video {
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 }
 
@@ -600,6 +600,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -612,8 +616,20 @@ video {
   margin-top: 120px;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-\[32px\] {
+  margin-top: 32px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
 }
 
 .inline-block {
@@ -622,10 +638,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
 }
 
 .grid {
@@ -644,20 +656,12 @@ video {
   height: 2.25rem;
 }
 
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
 .h-\[144px\] {
   height: 144px;
 }
 
-.min-h-0 {
-  min-height: 0px;
+.h-\[200px\] {
+  height: 200px;
 }
 
 .w-20 {
@@ -724,6 +728,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -742,6 +750,10 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-\[16px\] {
+  border-radius: 16px;
 }
 
 .rounded-\[35px\] {
@@ -764,8 +776,8 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-\[16px\] {
-  border-radius: 16px;
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .rounded-t-3xl {
@@ -803,9 +815,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-pink-500 {
+.bg-green-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
 .bg-background-image {
@@ -846,14 +858,6 @@ video {
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-20 {
-  padding: 5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .p-\[30px\] {
@@ -1150,6 +1154,10 @@ video {
     margin-top: 1.5rem;
   }
 
+  .lg\:mt-\[120px\] {
+    margin-top: 120px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1172,6 +1180,11 @@ video {
 
   .lg\:w-\[526px\] {
     width: 526px;
+  }
+
+  .lg\:rounded-t-3xl {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
   }
 
   .lg\:bg-transparent {
