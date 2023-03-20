@@ -19,4 +19,8 @@ $(function(){
         autoplay:true,
         
       });
+
+    //   YEAR 
+    let FullYear= new Date().getFullYear();
+    document.querySelector(".year").innerHTML=FullYear;
 })
