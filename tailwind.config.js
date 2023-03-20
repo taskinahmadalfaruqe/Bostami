@@ -8,7 +8,13 @@ module.exports = {
 
     container: {
       center: true,
-      padding: '50px',
+      padding: {
+        DEFAULT: '10px',
+        sm: '2rem',
+        lg: '50px',
+        xl: '50px',
+        '2xl': '80px',
+      },
     },
 
     extend: {
